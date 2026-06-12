@@ -51,3 +51,32 @@ button:hover{
     margin-top:25px;
     font-size:18px;
 }
+h2{
+    color:#ffffff;
+    margin-bottom:20px;
+    font-weight:400;
+}
+
+.menu{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    justify-content:center;
+    margin-top:20px;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:10px;
+    background:#3cff8f;
+    color:black;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 15px #3cff8f;
+}
